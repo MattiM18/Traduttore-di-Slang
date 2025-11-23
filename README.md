@@ -70,7 +70,7 @@ body.dark footer { background:#111; color:#ccc;}
 </div>
 </main>
 
-<footer>© 2025 Traduttore di Slang • Creato da [Tuo Nome]</footer>
+<footer>© 2025 Traduttore di Slang • Creato da MattiaM18</footer>
 
 <script>
 let count = 0;
