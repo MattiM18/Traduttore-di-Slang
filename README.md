@@ -3,10 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Traduttore di Slang</title>
+
+
+<title>Traduttore di Slang Online | Traduci Slang Inglese</title>
+<meta name="description" content="Traduttore di slang inglese in italiano. Traduci oltre 200 slang online facilmente e rapidamente.">
+<meta name="keywords" content="slang, traduttore slang, inglese italiano, traduzione slang online, slang moderno, dizionario slang">
+<meta name="author" content="Tuo Nome">
+
+
+<meta property="og:title" content="Traduttore di Slang Online">
+<meta property="og:description" content="Traduci oltre 200 slang inglesi in italiano in modo semplice e veloce.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tuo-username.github.io/traduttore-slang/">
+<meta property="og:image" content="URL_immagine_preview.png">
+
 <style>
 * { box-sizing: border-box; margin:0; padding:0; }
-body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#f0f0f5; color:#333; min-height:100vh; display:flex; flex-direction:column; transition:0.3s; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#f0f0f5; color:#333; min-height:100vh; display:flex; flex-direction:column; transition:0.3s;}
 body.dark { background:#1e1e2f; color:#f0f0f5; }
 header { background:#4CAF50; color:white; padding:25px 0; text-align:center; font-size:2em; font-weight:bold; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
 main { flex:1; display:flex; justify-content:center; align-items:flex-start; padding:30px 10px; }
@@ -49,7 +62,7 @@ body.dark footer { background:#111; color:#ccc;}
 <div id="counter">Traduzioni effettuate: 0</div>
 
 <div id="adsense">
-<!-- Spazio per Google AdSense -->
+
 </div>
 
 <div id="suggestions"><strong>Suggerimenti:</strong></div>
@@ -57,7 +70,7 @@ body.dark footer { background:#111; color:#ccc;}
 </div>
 </main>
 
-<footer>© 2025 Traduttore di Slang • Creato da te</footer>
+<footer>© 2025 Traduttore di Slang • Creato da [Tuo Nome]</footer>
 
 <script>
 let count = 0;
@@ -323,6 +336,7 @@ const slangDictionary = {
 "sauce god":"dio dello stile",
 "vibe god":"dio delle vibrazioni"
 };
+
 
 function translateSlang(){
     const input = document.getElementById("slangInput").value.toLowerCase().trim();
